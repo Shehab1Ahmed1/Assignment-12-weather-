@@ -1,0 +1,263 @@
+body{
+    background-color: #1e202b;
+    font-size: 14px;
+    font-weight: 300;
+    color: #bfc1c8;
+}
+nav{
+    color: #fbfcff;
+}
+nav ul{
+    margin-block: 30px;
+    border-radius: 5px;
+    background-color: #262936;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+nav ul li{
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+nav ul li a{
+    padding: 20px !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+.nav-link {
+    color: #fbfcff !important;;
+}
+.logo img{
+    width: 65px;
+    height: 40px;
+}
+div.menu{
+    width: 20px;
+    height: 3px;
+    margin-block: 4px;
+    border-radius: 2px;
+    background-color: white;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.navbar-toggler{
+    padding: 12px 15px;
+    border: 2px solid transparent;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    box-sizing: border-box;
+    transition: all 80ms;
+    -webkit-transition: all 80ms;
+    -moz-transition: all 80ms;
+    -ms-transition: all 80ms;
+    -o-transition: all 80ms;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler:hover{
+    box-sizing: border-box;
+    border: 2px solid #009ad8;
+}
+.navbar-toggler:hover div.menu{
+    background-color: #009ad8;
+}
+.find-location{
+    margin-block: 70px;
+}
+main div.Image-bg{
+    height: 50vh;
+    background-image: url("../image/banner.png");
+    background-size: cover;
+    background-position: center;
+}
+main div form input.location-input,
+footer div div.row form input.Subscribe-input
+{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius:30px ;
+    -webkit-border-radius:30px ;
+    -moz-border-radius:30px ;
+    -ms-border-radius:30px ;
+    -o-border-radius:30px ;
+    background-color: #1e202b;
+    color: white;
+}
+main div form input.location-input:focus,
+footer div div.row form input.Subscribe-input:focus
+{
+    outline: none;
+}
+main div form button.button-find
+{ 
+    position: absolute;
+    border: none;
+    top: 50%;
+    right: 10px;
+    transform:translateY(-50%) ;
+    padding: 15px 40px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: #009ad8;
+    -webkit-transform:translateY(-50%) ;
+    -moz-transform:translateY(-50%) ;
+    -ms-transform:translateY(-50%) ;
+    -o-transform:translateY(-50%) ;
+    color: white;
+}
+div.item{
+    margin-top: -150px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px; 
+}
+div.weather,div.after-Tomorrow{
+    background-color:#292b3b ;
+    height: 100%;
+}
+div.items{
+    min-height: 45vh;
+}
+div.weather-today-container div.weather{
+    position: relative;
+}
+div.weather-today-container  div.Date{
+    background-color:#333545 ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+div.weather-today-container div.Todays-weather p{
+    font-size: 14px;
+    color: #aeafb4;
+}
+div.weather-today-container div.Todays-weather div.Temperature div.degree h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+div.weather-today-container div.Todays-weather div.Temperature div.degree img{
+    width: 100px;
+}
+div.weather-today-container div.Todays-weather p.Weather-conditions,
+div.Tomorrow p.Weather-conditions,
+div.after-Tomorrow p.Weather-conditions
+{
+    color: #009ad8;
+    font-weight:500;
+}
+div.Tomorrow{
+    background-color:#242530;
+    height: 100%;
+}
+div.Tomorrow p.day
+{
+    padding-block: 8px;
+    font-size: 16px;
+}
+div.after-Tomorrow p.day{
+    background-color:#333545 ;
+    padding-block: 8px;
+    font-size: 16px;
+}
+div.Tomorrow p.day{
+    background-color:#1e202b;
+}
+div.Tomorrow img,
+div.after-Tomorrow img
+{
+    width: 70px;
+    margin-top: 30px;
+}
+footer{
+    margin-top: 50px;
+    height: 30vh;
+    background-color:#242634 ;
+}
+div.Subscribe{
+    margin-top: 50px;
+}
+footer div div.row form{
+    position: relative;
+}
+footer div div.row form button.button-Subscribe{
+    position: absolute;
+    border: none;
+    top: 50%;
+    right: 10px;
+    transform:translateY(-50%) ;
+    padding: 15px 40px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: #009ad8;
+    -webkit-transform:translateY(-50%) ;
+    -moz-transform:translateY(-50%) ;
+    -ms-transform:translateY(-50%) ;
+    -o-transform:translateY(-50%) ;
+    color: white;
+}
+footer a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color:#1e202b ;
+    color: #009ad8;
+    margin: 15px 5px;
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 200ms;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+}
+footer a:hover,
+.footer_active-link
+{
+    background-color: #009ad8;
+    color: white;
+}
+.active-link{
+    color: #009ad8 !important;
+}
+@media Screen and (min-width: 992px) {
+    nav ul{
+        background-color: transparent;
+    }
+    nav ul li{
+        border: none;
+    }
+    nav ul li a{
+        padding: 3px 20px !important;
+    }
+    .active-link{
+        color: #009ad8 !important;
+        border: 2px solid #009ad8;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+}
+}
